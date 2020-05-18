@@ -11,6 +11,7 @@ to carry out the actions below:
 * Choose a type of crust
 * Select a topping
 * Place an order for your pizza
+
 Once done by creating your perfect pizza and making an order you will:
 * See your total charge
 * Select delivery option
@@ -30,7 +31,8 @@ Still a work in progress.
 * Javascript
 
 ## Link to live site
+https://elijahk59.github.io/parker-pizza/
 
 ### License
 *MIT License*
-Copyright (c) {year} **Elijah Kithome**
+Copyright (c) {2020} **Elijah Kithome**

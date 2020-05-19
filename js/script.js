@@ -1,8 +1,9 @@
 //business interface logic
-function Pizza(size, crust, toppings) {
+function Pizza(size, crust, toppings, quantity) {
     this.size = size;
     this.crust = crust;
     this.toppings = toppings;
+    this.quantity = quantity
 }
 var priceSize, priceCrust, priceTopping;
 
@@ -67,4 +68,5 @@ $(document).ready(function() {
         $(".plate2").show();
         $(".plate1").hide();
     })
+    
 })

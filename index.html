@@ -56,37 +56,54 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!--body-->
+        <div class="container order">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="" alt="">
-                        <div class="card-body">
-                            <h3 class="card-title"></h3>
-                            <p class="card-text"></p>
-                        </div>
+                <div class="col-md-12">
+                    <div class="plate1">
+                        <h2></h2>
+                        <input type="button" value="MAKE AN ORDER" class="button" id="order">
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="" alt="">
-                        <div class="card-body">
-                            <h3 class="card-title"></h3>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="" alt="">
-                        <div class="card-body">
-                            <h3 class="card-title"></h3>
-                            <p class="card-text"></p>
-                        </div>
+                    <div class="plate2">
+                        <form id="form1" class="form" name="form1" action="">
+                            <legend>Place your order here</legend>
+
+                            <label for="size">Select your pizza size</label>
+                            <select id="size" name="size" required>
+                                <option disabled selected>Pizza size</option>
+                                <option value="small">Small (400/=)</option>
+                                <option value="medium">Medium (800/=)</option>
+                                <option value="large">Large (1200/=)</option>
+                            </select>
+
+                            <label for="crust">Select your crust</label>
+                            <select id="crust" name="crust" required>
+                                <option disabled selected>Crust type</option>
+                                <option value="crispy">Crispy crust (100/=)</option>
+                                <option value="stuffed">Stuffed (200/=)</option>
+                                <option value="gluten">Gluten-Free (100/=)</option>
+                            </select>
+
+                            <label for="toppings">Select your pizza toppings</label><br>
+                            <div class="checkbox">
+                                <input type="checkbox" value="cheese" name="toppings" id="cheese">
+                                <label for="cheese">Cheese</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" value="bacon" name="toppings" id="bacon">
+                                <label for="bacon">Bacon</label>
+                            </div>
+
+                            <label for="quantiy">Select quantity of pizza</label>
+                            <input required type="number" class="form-control" id="quantity" min="1" placeholder="Select the quantity you require here">
+
+                            <input type="submit" value="CONTINUE" class="button" id="continue">
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!--body-->
         <!--footer-->
     </body>
 </html>

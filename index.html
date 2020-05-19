@@ -54,6 +54,62 @@
             </div>
         </div>
         <!--body-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="card-title"><em>Create your perferct Pizza 😋</h1>
+              </div>
+            </div>
+            <div class="container">
+              <div class="card">
+                <div class="row container">
+                  <div class="col-md-6">
+                    <form class="form-group" id="pizzaOrder">
+                      <div id="pizzaSize">
+                        <label for="">Choose your size of Pizza</label>
+                        <select required class="form-control" id="size">
+                          <option></option>
+                          <option value="small">Small Pizza</option>
+                          <option value="medium">Medium Pizza</option>
+                          <option value="large">Large Pizza</option>
+                        </select>
+                      </div><br>
+                      <div id="pizzaCrusts">
+                        <label for="">Choose your Pizza Crust</label>
+                        <select required class="form-control" id="crust">
+                          <option></option>
+                          <option value="crispy">Crispy Crust</option>
+                          <option value="stuffed">Stuffed Crust</option>
+                          <option value="gluten">Glutten-Free Crust</option>
+                        </select>
+                      </div><br>
+                      <div id="pizzaToppings">
+                        <label for="">Choose your Pizza toppings: </label>
+                        <select required class="form-control" id="toppings" multiple>
+                          <option></option>
+                          <option value="greenPepper">Green Pepper</option>
+                          <option value="mushroom">Mushroom</option>
+                          <option value="chicken">Chicken</option>
+                          <option value="beef">Beef BBQ</option>
+                          <option value="redOnions">Red Onions</option>
+                          <option value="periperi">Periperi Chicken</option>
+                          <option value="pineapple">Pineapple</option>
+                          <option value="sweetCorn">Sweet Corn</option>
+                          <option value="ham">Ham</option>
+                          <option value="cheese">Mozzarella Cheese</option>
+                        </select>
+                      </div>
+                      <div class="pizzaQuantity">
+                        <label for="quantity">Select number of pizza</label>
+                        <input required type="number" class="form-control" id="pizza-quantity" min="1" placeholder="Please select the quantity">
+                      </div><br>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      
         <!--footer-->
 
         </div>

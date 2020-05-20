@@ -22,12 +22,13 @@ body {
 }
 .menu {
     background: rgba(255, 255, 255, 1);
-    text-shadow: ;
+    border-radius: 5%;
+    border: inset;
 }
 .order {
     color: white;
     text-align: center;
-    background-image: url("///images/order.JPEG");
+    background-image: url("/order.JPEG");
 
 
 }
